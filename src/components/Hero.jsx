@@ -65,7 +65,7 @@ export default function Hero({ onScrollToSection }) {
             initial={{ opacity: 0, y: 30, filter: 'blur(5px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-[2.2rem] sm:text-5xl lg:text-[4rem] font-bold font-sora text-[#10301d] leading-[1.12] tracking-tight mb-5 drop-shadow-sm"
+            className="text-[2.2rem] sm:text-5xl lg:text-[4.5rem] font-bold font-sora text-[#10301d] leading-[1.12] tracking-tight mb-5 drop-shadow-sm"
           >
             Building Indian's<br />Green Energy Solutions
           </motion.h1>
@@ -77,7 +77,7 @@ export default function Hero({ onScrollToSection }) {
             transition={{ duration: 0.7, delay: 0.25 }}
             className="text-xs sm:text-sm md:text-base text-slate-700 font-semibold leading-relaxed max-w-2xl mb-8 bg-white/20 backdrop-blur-[2px] rounded-xl px-4 py-2"
           >
-            Stoshi green energy is creating a sustainable ecosystem through Innovation EV solution
+            STOSHI Green Energy is creating a sustainable ecosystem through Innovation EV solutions, community power and a cleaner tomorrow
           </motion.p>
 
           {/* Two CTA Buttons */}
@@ -92,14 +92,14 @@ export default function Hero({ onScrollToSection }) {
               className="bg-[#105D3D] hover:bg-[#0c4c31] text-white rounded-full px-6 py-3.5 font-sora font-semibold text-xs transition-all duration-300 shadow-md hover:shadow-lg flex items-center space-x-2 group cursor-pointer"
             >
               <span className="text-sm">☘️</span>
-              <span>Green Solutions</span>
+              <span>Become a member</span>
               <ArrowUpRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </button>
             <button
               onClick={() => onScrollToSection('benefits')}
               className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 rounded-full px-6 py-3.5 font-sora font-semibold text-xs transition-all duration-300 shadow-sm hover:shadow flex items-center space-x-2 group cursor-pointer"
             >
-              <span>Join Systems</span>
+              <span>Explore Benefits</span>
               <ArrowUpRight className="w-3.5 h-3.5 text-slate-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </button>
           </motion.div>

@@ -36,31 +36,31 @@ const benefits = [
     title: 'LOYALTY\nADVANTAGES',
     desc: 'Unlock loyalty-based benefits and special privileges as you grow with us.'
   },
-  {
-    icon: Handshake,
-    title: 'PARTNER NETWORK\nBENEFITS',
-    desc: 'Access partner discounts, collaborations and exclusive member-only privileges.'
-  },
-  {
-    icon: LayoutDashboard,
-    title: 'PERSONAL\nDASHBOARD',
-    desc: 'Track your membership, benefits, rewards and activities in your personal dashboard.'
-  },
-  {
-    icon: Users,
-    title: 'COMMUNITY\nPROGRAMS',
-    desc: 'Engage in community programs, events and initiatives for learning and growth.'
-  },
-  {
-    icon: Award,
-    title: 'EXCLUSIVE MEMBER\nSTATUS',
-    desc: 'Enjoy a special member status with premium features and ecosystem privileges.'
-  }
+  // {
+  //   icon: Handshake,
+  //   title: 'PARTNER NETWORK\nBENEFITS',
+  //   desc: 'Access partner discounts, collaborations and exclusive member-only privileges.'
+  // },
+  // {
+  //   icon: LayoutDashboard,
+  //   title: 'PERSONAL\nDASHBOARD',
+  //   desc: 'Track your membership, benefits, rewards and activities in your personal dashboard.'
+  // },
+  // {
+  //   icon: Users,
+  //   title: 'COMMUNITY\nPROGRAMS',
+  //   desc: 'Engage in community programs, events and initiatives for learning and growth.'
+  // },
+  // {
+  //   icon: Award,
+  //   title: 'EXCLUSIVE MEMBER\nSTATUS',
+  //   desc: 'Enjoy a special member status with premium features and ecosystem privileges.'
+  // }
 ];
 
 export default function MemberBenefits() {
   return (
-    <section id="benefits" className="py-20 md:py-28 px-4 md:px-8 bg-[#F7FAF7] overflow-hidden">
+    <section id="benefits" className="py-20 md:py-28 px-4 md:px-8 bg-[#F7FAF7] overflow-hidden container mx-auto">
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
@@ -102,7 +102,7 @@ export default function MemberBenefits() {
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5">
           {benefits.map((benefit, i) => {
             const Icon = benefit.icon;
             return (
